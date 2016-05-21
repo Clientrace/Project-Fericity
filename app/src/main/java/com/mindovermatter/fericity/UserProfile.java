@@ -10,7 +10,7 @@ public class UserProfile {
     public static String fname = "";
     public static String mname = "";
     public static String lname = "";
-    public static String groupId = "";
+    public static String loc = "";
     public static Uri dp;
 
 }

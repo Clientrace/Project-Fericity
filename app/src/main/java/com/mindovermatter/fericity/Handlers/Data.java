@@ -13,6 +13,8 @@ public class Data {
     public static float networkSignalStrength;
 
     public int getSafetynessPercent(){
+
+
         return 0;
     }
 
