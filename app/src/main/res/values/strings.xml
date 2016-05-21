@@ -1,8 +1,12 @@
 <resources>
+<<<<<<< HEAD
     <string name="facebook_app_id">1624880537832822</string>
     <string name="app_name">Fericity</string>
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="title_activity_safe">SafeActivity</string>
+=======
+    <string name="app_name">Project_Fericity</string>
+>>>>>>> 3ea5533f84c2351d6fe1aeb132255e69d4c10e6c
 </resources>

@@ -2,11 +2,19 @@ apply plugin: 'com.android.application'
 
 android {
     compileSdkVersion 23
+<<<<<<< HEAD
     buildToolsVersion "23.0.1"
 
     defaultConfig {
         applicationId "com.mindovermatter.fericity"
         minSdkVersion 16
+=======
+    buildToolsVersion "23.0.3"
+
+    defaultConfig {
+        applicationId "mindovermatter.project_fericity"
+        minSdkVersion 15
+>>>>>>> 3ea5533f84c2351d6fe1aeb132255e69d4c10e6c
         targetSdkVersion 23
         versionCode 1
         versionName "1.0"
@@ -23,8 +31,11 @@ dependencies {
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:23.4.0'
+<<<<<<< HEAD
     compile 'com.facebook.android:facebook-android-sdk:[4,5)'
     compile 'com.android.support:design:23.4.0'
     compile 'com.google.android.gms:play-services-location:7.+'
     compile 'com.google.android.gms:play-services-location:9.0.0'
+=======
+>>>>>>> 3ea5533f84c2351d6fe1aeb132255e69d4c10e6c
 }

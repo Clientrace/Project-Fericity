@@ -63,7 +63,7 @@ public class ReportActivity extends AppCompatActivity {
         locationManager.requestLocationUpdates(LocationManager.GPS_PROVIDER, 100,
                 0, locationListener);
 
-        
+
 
     }
 
