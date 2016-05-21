@@ -1,0 +1,7 @@
+<resources>
+    <string name="facebook_app_id">1624880537832822</string>
+    <string name="app_name">Fericity</string>
+
+<!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
