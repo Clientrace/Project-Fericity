@@ -203,7 +203,7 @@
             <ImageView
                 android:layout_width="34dp"
                 android:layout_height="wrap_content"
-                android:id="@+id/imageView7"
+                android:id="@+id/report_button"
                 android:src="@drawable/fericity_icons_report"
                 android:layout_marginLeft="70dp"
                 android:layout_gravity="right" />

@@ -9,6 +9,7 @@ import android.os.Bundle;
 import android.util.Log;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageView;
 import android.widget.TextView;
 
 import com.facebook.AccessToken;
@@ -34,10 +35,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        TextView tv = (TextView)findViewById(R.id.user_fname);
-        tv.setText(UserProfile.fname);
         this.registerReceiver(this.battInfo, new IntentFilter(Intent.ACTION_BATTERY_CHANGED));
-        Button report = (Button) findViewById(R.id.report_button);
+        ImageView report = (ImageView) findViewById(R.id.report_button);
         getFeed();
         report.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -62,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
                             JSONObject jobj = new JSONObject(response.getRawResponse());
                             JSONArray data = jobj.getJSONArray("data");
                             for(int i=0;i<data.length();i++){
-                               Log.d(">>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>",""+ data.getJSONObject(i).getString("messages"));
+                               Log.d(">>>>>>>>>>>>>>>",""+ data.getJSONObject(i).getString("messages"));
                             }
                         }catch (Exception e){}
                     }
