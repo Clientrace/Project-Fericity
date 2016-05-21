@@ -37,6 +37,9 @@ public class LoginActivity extends AppCompatActivity {
                     UserProfile.fname = profile.getFirstName();
                     UserProfile.mname = profile.getMiddleName();
                     UserProfile.lname = profile.getMiddleName();
+
+                    
+
                 }
             }
 
