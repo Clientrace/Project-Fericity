@@ -23,10 +23,6 @@ public class FileHandler {
             fw = new FileWriter(file);
             bw = new BufferedWriter(fw);
         }catch(Exception e){}
-
-
-
-
     }
 
     public static String encrypt(String toEncrypt, String code){
