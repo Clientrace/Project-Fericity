@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout3"
+        android:layout_width="match_parent"
+        android:layout_height="90dp"
+        android:background="#7799ee"
+        android:gravity="center"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" >
+
+        <ImageView
+            android:layout_width="43dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageView5"
+            android:src="@drawable/fericity_icons_logo"
+            android:layout_alignBottom="@+id/header"
+            android:scaleType="centerCrop"
+            android:layout_alignParentTop="true" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="ericity"
+            android:textColor="#FFFFFF"
+            android:textSize="34sp"
+            android:id="@+id/textView10"
+            android:layout_alignBottom="@+id/imageView5"
+            android:layout_toRightOf="@+id/imageView5"
+            android:layout_toEndOf="@+id/imageView5"
+            android:layout_marginBottom="20dp" />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="340dp"
+            android:id="@+id/imageButton2"
+            android:src="@drawable/heart1"
+            android:scaleType="fitCenter"
+            android:background="#FFFFFF" />
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageButton"
+            android:src="@drawable/fericity_icons_back"
+            android:scaleType="fitCenter"
+            android:background="#FFFFFF"
+            android:layout_marginLeft="52dp"
+            android:layout_marginTop="360dp" />
+
+        <ImageButton
+            android:layout_width="120dp"
+            android:layout_height="70dp"
+            android:id="@+id/imageButton3"
+            android:background="#FFFFFF"
+            android:src="@drawable/fericity_icons_stats"
+            android:scaleType="fitCenter"
+            android:layout_marginLeft="200dp"
+            android:layout_marginBottom="50dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="360dp" />
+    </RelativeLayout>
+
+</LinearLayout>
